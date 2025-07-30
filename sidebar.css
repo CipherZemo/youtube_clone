@@ -1,0 +1,62 @@
+.sidebar{
+background-color: white;
+position: fixed;
+z-index: 1;
+width: 75px;
+top:60px;
+left: 0px;
+bottom: 0;
+border-right-width: 1px;
+border-right-style: solid;
+border-color:rgb(222,222,222);
+cursor: pointer;
+}
+.sidebar-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 75px;
+    height: 80px;
+
+}
+.sidebar-item:hover{
+    background-color: lightgray;
+}
+.sidebar-item p{
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 14px;
+}
+.sidebar-item i{
+    font-size: 25px;
+    margin-bottom: 8px;
+}
+/* yt music*/
+.sidebar-itemyt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 75px;
+    height: 80px;
+}
+.sidebar-itemyt:hover{
+    background-color: lightgray;
+}
+.sidebar-itemyt p{
+    margin-left: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 14px;
+}
+.sidebar-itemyt i{
+    font-size: 25px;
+    margin-bottom: 8px;
+}
+
+
+
+
+

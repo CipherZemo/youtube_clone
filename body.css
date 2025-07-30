@@ -1,0 +1,5 @@
+body{
+    min-height: 2000px;/* webpage is more scrollable or you can incerase body padding bottom*/
+    padding-top: 70px;
+    padding-left: 80px;
+}

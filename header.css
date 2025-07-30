@@ -1,0 +1,167 @@
+.header{
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    position: fixed;
+    z-index: 1;
+    top:0px;
+    left:0px;
+    right:0px;
+    background-color: white;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-color:rgb(222,222,222);
+
+}
+
+.left{
+    margin-right: 60px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+}
+.hamicon,.ytlogo{
+    height: 30px;
+    margin-left: 20px;
+    margin-right: 10px;
+    vertical-align: top;
+    cursor: pointer;
+}
+
+.middle{
+    display: flex;
+    flex: 1;
+    margin-left: -50px;
+    max-width: 500px;
+    align-items: center;
+
+}
+.searchbar{
+    flex: 1;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    padding: 15px;
+    height: 5px;
+    border-color: rgb(222,222,222);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 2px;
+    width: 0px;
+}
+
+.searchbar:focus {
+  border-color: #007bff; /* Example: Change border color */
+  outline: none; /* Remove default browser outline */
+}
+
+.searchicon{
+    height: 33px;
+    width: 35px;
+    cursor: pointer;
+
+}
+.voiceicon{
+    height: 30px;
+    width: 27px;
+    cursor: pointer;
+}
+
+.search{
+    height:36px;
+    width: 60px;
+    margin-left: -5px;
+    border-color: rgb(222,222,222);
+    border-style: solid ;
+    border-width:  1px;
+    position: relative;
+
+}
+.search:hover .tooltip{
+opacity: 1;
+}
+
+.voice{
+    height:40x;
+    width:40px;
+    border-width: 1px;
+    border-radius: 50%;
+    margin-left: 35px;
+    border-style: solid;  
+    border-color: rgb(222,222,222);
+    background-color: rgb(240, 240, 240);
+    position: relative;
+}
+.voice:hover .tooltip{
+opacity: 1;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    margin-left: 100px;
+    width: 210px;
+    justify-content: space-between;
+    flex-shrink: 0;
+    
+}
+.upload,.more,.noti,.me{
+    height: 30px;
+    cursor: pointer;
+}
+.uploadtooltip{
+    position: relative;
+    font-size: 17px;
+}
+.uploadtooltip .tooltip{
+    padding-left: 10px;
+    padding-top: 3px;
+}
+.uploadtooltip:hover .tooltip{
+    opacity: 1;
+}
+.uploadtooltip:hover .tooltip{
+    opacity: 1;
+}
+.notidiv{
+    position: relative;
+}
+.notinum{
+    font-size: 12px;
+    color: white;
+    height: 10px;
+    width: 8px;
+    padding-top: 1.6px;
+    padding-bottom:4px;
+    padding-left: 5.5px;
+    padding-right: 3px;
+    position: absolute;
+    right: -3px;
+    top: -13px;
+    z-index: 1;
+    background-color: red;
+    border-width: 1.5px;
+    border-style: solid;
+    border-radius: 75%;
+    border-color: white;
+}
+.tooltip{
+    position: absolute;
+    background-color: gray;
+    color: white;
+    padding: 5px;
+    padding-left: 3px;
+    padding-right: 3px;
+    width: 48px;
+    border-radius: 3px;
+    opacity: 0;
+    transition: .2s;
+    pointer-events: none;
+    bottom: -38px;
+    right: -20px;
+    white-space: nowrap;
+}
+.voice .tooltip{
+    width: 78px;   
+}
