@@ -92,6 +92,9 @@ opacity: 1;
     background-color: rgb(240, 240, 240);
     position: relative;
 }
+.voice .tooltip{
+    width: 78px;   
+}
 .voice:hover .tooltip{
 opacity: 1;
 }
@@ -116,13 +119,25 @@ opacity: 1;
 }
 .uploadtooltip .tooltip{
     padding-left: 10px;
-    padding-top: 3px;
+    padding:1px 1px 3px 6px;
 }
 .uploadtooltip:hover .tooltip{
     opacity: 1;
+    padding-right: 1px;
 }
-.uploadtooltip:hover .tooltip{
+.moretooltip{
+    position: relative;
+    font-size: 17px;  
+}
+.moretooltip:hover .tooltip{
     opacity: 1;
+    width: 90px;
+    padding: 4px;
+}
+.notidiv:hover .tooltip{
+    opacity: 1;
+    width: 85px;
+    padding-left: 7px;
 }
 .notidiv{
     position: relative;
@@ -162,6 +177,4 @@ opacity: 1;
     right: -20px;
     white-space: nowrap;
 }
-.voice .tooltip{
-    width: 78px;   
-}
+
